@@ -549,6 +549,10 @@ img {
   color: #fff;
   padding: 1.214rem 2.6rem; }
 
+@media screen and (max-width: 1240px) {
+  .nav__item {
+    margin-right: 1rem; } }
+
 @media screen and (max-width: 1200px) {
   html {
     font-size: 12px; }
