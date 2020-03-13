@@ -2,6 +2,9 @@
   .nav
     &__item
       margin-right: 1rem
+  .design
+    &__section-text
+      padding: 0 11rem 2.81rem 11rem
 @media screen and ( max-width: 1200px )
   html
     font-size: 12px
@@ -28,10 +31,15 @@
       margin-left: 0
   .design
     background-color: $dark
-    &__section-title
+    &__section-text
       color: $light
+    &__section-title
+      color: $light 
     &__card
       margin-bottom: 5.7rem
+    .card
+      &__pricetag
+        box-shadow: 5px 5px 10px rgba($primary, 0.3)
 @media screen and ( max-width: 570px )
   .contacts
     &__phone
