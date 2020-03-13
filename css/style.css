@@ -605,7 +605,7 @@ img {
   color: #959595;
   margin-bottom: 2.5rem; }
 
-.card__pricetag {
+.card__pricetags {
   position: absolute;
   left: 0;
   bottom: -1.79rem;
@@ -652,7 +652,7 @@ img {
       color: #fff; }
     .design__card {
       margin-bottom: 5.7rem; }
-    .design .card__pricetag {
+    .design .card__pricetags {
       box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3); } }
 
 @media screen and (max-width: 570px) {
