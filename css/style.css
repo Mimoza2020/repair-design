@@ -934,6 +934,16 @@ img {
     text-align: center;
     margin-bottom: 3.214rem;
     margin-top: 0; }
+    .footer__title-map {
+      font-family: 'Yeseva One', cursive;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 1.43rem;
+      line-height: 2rem;
+      text-align: center;
+      text-transform: uppercase;
+      color: #e3b873;
+      padding: 0 16rem; }
   .footer__form {
     display: flex;
     flex-wrap: wrap;
@@ -963,6 +973,14 @@ img {
     max-width: 65.36rem;
     margin: auto;
     margin-bottom: 4rem; }
+
+.image-map {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem; }
+  .image-map img {
+    margin-left: 1.8rem; }
 
 .modal {
   opacity: 0;
