@@ -434,6 +434,8 @@ img {
     .section-title__heading {
       text-transform: uppercase;
       font-family: 'Yeseva One', cursive;
+      font-style: normal;
+      font-weight: normal;
       line-height: 138%; }
       .section-title__heading--primary {
         color: #e3b873; }
@@ -596,6 +598,8 @@ img {
 .title {
   margin: 0;
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   font-size: 2.857rem; }
   .title--primary {
@@ -723,6 +727,8 @@ img {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
   font-size: 1.29rem;
   margin-top: 0;
   margin-bottom: 0.7rem; }
@@ -741,6 +747,8 @@ img {
   bottom: -1.79rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', curcive;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   background-color: #e3b873;
   color: #fff;
@@ -790,6 +798,8 @@ img {
 
 .card__title {
   font-family: 'Yeseva One', cursive;
+  font-style: normal;
+  font-weight: normal;
   font-size: 1.29rem;
   margin-top: 0;
   margin-bottom: 0.7rem; }
@@ -808,10 +818,103 @@ img {
   bottom: -1.79rem;
   font-size: 1.29rem;
   font-family: 'Yeseva One', curcive;
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   background-color: #e3b873;
   color: #fff;
   padding: 1.214rem 5.18rem 1.214rem 2.36rem; }
+
+.dark {
+  background-color: #131313;
+  height: 65rem;
+  margin-top: -60.5rem; }
+
+.team {
+  padding-bottom: 30rem; }
+  .team__section-title {
+    margin-bottom: 2.214rem;
+    margin-top: -33rem; }
+  .team__section-text {
+    text-align: center;
+    font-size: 1.43rem;
+    line-height: 1.93rem;
+    padding: 0 29rem 2.32rem 29rem;
+    color: #fff; }
+  .team__image {
+    max-width: 28rem;
+    width: 100%;
+    max-height: 30.14rem;
+    height: 100%;
+    position: relative; }
+  .team__icon {
+    position: relative;
+    left: -4rem;
+    top: -34.5rem; }
+  .team__text {
+    max-width: 40.785rem;
+    margin: auto;
+    text-align: center;
+    font-size: 1.428rem;
+    line-height: 2.4rem; }
+    .team__text::before {
+      content: '';
+      display: block;
+      margin: auto;
+      margin-bottom: 2.5rem;
+      width: 55px;
+      height: 2px;
+      background-color: #e3b873;
+      border-radius: 30px; }
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between; }
+
+.col {
+  flex-basis: 32%; }
+
+.card__texts {
+  position: relative;
+  max-width: 16.64rem;
+  margin: 1.43rem;
+  margin-top: -5.9rem;
+  padding: 1.57rem 1.428rem;
+  background-color: #fff;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03); }
+
+.card__titles {
+  font-family: 'Yeseva One', cursive;
+  font-size: 1.29rem;
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 0.7rem; }
+
+.card__lists {
+  margin: 0;
+  font-size: 1.07rem;
+  text-align: center;
+  line-height: 1.79rem;
+  color: #959595;
+  margin-bottom: 2.5rem; }
+
+.card__experience {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.93rem;
+  line-height: 1.43rem;
+  font-family: 'Yeseva One', curcive;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #e3b873;
+  color: #fff;
+  padding: 0.93rem 1.64rem; }
 
 .footer {
   background: #131313 url("../img/footer-bg.jpg") no-repeat center/cover;
