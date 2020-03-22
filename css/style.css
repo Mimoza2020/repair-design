@@ -697,6 +697,9 @@ img {
   flex-direction: column;
   flex-basis: 30%; }
 
+.control__input {
+  color: #131313; }
+
 .control__label {
   margin-bottom: -7px; }
 
@@ -836,10 +839,12 @@ img {
     margin-bottom: 2.214rem;
     margin-top: -33rem; }
   .team__section-text {
+    max-width: 32rem;
     text-align: center;
     font-size: 1.43rem;
     line-height: 1.93rem;
-    padding: 0 29rem 2.32rem 29rem;
+    margin: auto;
+    padding: 2.32rem 0;
     color: #fff; }
   .team__image {
     max-width: 28rem;
@@ -848,9 +853,10 @@ img {
     height: 100%;
     position: relative; }
   .team__icon {
-    position: relative;
-    left: -4rem;
-    top: -34.5rem; }
+    max-width: 5rem;
+    max-height: 5rem;
+    width: 100%;
+    height: 100%; }
   .team__text {
     max-width: 40.785rem;
     margin: auto;
@@ -861,7 +867,8 @@ img {
       content: '';
       display: block;
       margin: auto;
-      margin-bottom: 2.5rem;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
       width: 55px;
       height: 2px;
       background-color: #e3b873;
@@ -1073,7 +1080,13 @@ img {
     .design__card {
       margin-bottom: 5.7rem; }
     .design .card__pricetags {
-      box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3); } }
+      box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3); }
+  .team {
+    background-color: #131313; }
+    .team__text {
+      color: #fff; }
+    .team__card {
+      margin-bottom: 5.7rem; } }
 
 @media screen and (max-width: 570px) {
   .contacts__phone {
@@ -1094,7 +1107,13 @@ img {
   .hero__button {
     display: block;
     min-width: 22.86rem;
-    margin-bottom: 1.85rem; } }
+    margin-bottom: 1.85rem; }
+  .team {
+    background-color: #131313; }
+    .team__text {
+      color: #fff; }
+    .team__card {
+      margin-bottom: 5.7rem; } }
 
 @media screen and (max-height: 520px) {
   .hero__scroll-down {
