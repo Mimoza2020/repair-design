@@ -18,13 +18,13 @@ try {
     $mail->isSMTP();                                            // Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'tanyaamiliya@gmail.com';                     // SMTP username
+    $mail->Username   = 'projectssavchuk@yandex.ru';                     // SMTP username
     $mail->Password   = 'pass';                               // SMTP password
     $mail->SMTPSecure = 'ssl';         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
     $mail->Port       = 465;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('tanyaamiliya@gmail.com');
+    $mail->setFrom('projectssavchuk@yandex.ru');
     $mail->addAddress('ya.vladsa@yandex.ru');     // Add a recipient
 
     // Content
