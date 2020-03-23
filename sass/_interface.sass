@@ -38,7 +38,8 @@
     &:checked + 
       .policy__label
         &::before
-          background-color: $primary url('../img/check.svg') no-repeat center / 0.8rem
+          background: url('../img/check.svg') no-repeat center / 0.8rem
+          background-color: $primary
   &__label
     display: flex
     align-items: center
@@ -61,4 +62,4 @@ input
     border-bottom: 1px solid tomato
 .invalid
   color: tomato
-
+  position: absolute

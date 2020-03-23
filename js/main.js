@@ -81,6 +81,22 @@ $(document).ready(function () {
         required: "Обязательно укажите email",
         email: "Введите в формате: name@domain.com"
       }
+    },
+    submitHandler: function(form) {
+      $.ajax({
+        type: "POST",
+        url: "send.php",
+        data: $(form).serialize(),
+        succes: function (response) {
+          console.log('Ajax сработал. Ответ сервера: ' + response);
+          alert('Форма отправлена, мы свяжемся с вами через 10 минут');
+          $(form)[0].reset();
+          modal.toggleClass('modal--visible');
+        },
+        error: function (response) {
+          console.error('Ошибка запроса ' + response);
+        }
+      });
     }
   });
 

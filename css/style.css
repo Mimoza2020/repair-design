@@ -365,7 +365,8 @@ template {
   opacity: 0;
   visibility: hidden; }
   .policy__checkbox:checked + .policy__label::before {
-    background-color: #e3b873 url("../img/check.svg") no-repeat center/0.8rem; }
+    background: url("../img/check.svg") no-repeat center/0.8rem;
+    background-color: #e3b873; }
 
 .policy__label {
   display: flex;
@@ -389,7 +390,8 @@ input.invalid {
   border-bottom: 1px solid tomato; }
 
 .invalid {
-  color: tomato; }
+  color: tomato;
+  position: absolute; }
 
 .container {
   width: 85%;
@@ -1036,8 +1038,8 @@ img {
     display: flex;
     flex-direction: column;
     margin-bottom: 3.428rem; }
-  .modal__input:last-of-type {
-    margin-bottom: 1rem; }
+    .modal__input-group:last-of-type {
+      margin-bottom: 1rem; }
   .modal__policy {
     margin-bottom: 2.7rem; }
   .modal__button {
